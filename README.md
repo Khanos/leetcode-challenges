@@ -4,25 +4,20 @@ This repository contains my personal trials and solutions for various coding cha
 
 ## Challenges Completed
 
-- **Challenge 1:** [Title or Description]
-  - **Solution:** [File/Folder Name]
-  - **Description:** [Brief description or summary of the challenge]
-  
-- **Challenge 2:** [Title or Description]
-  - **Solution:** [File/Folder Name]
-  - **Description:** [Brief description or summary of the challenge]
+- **Challenge 1:** Roman to Integer
+  - **Solution:** challengues/roman-to-integer/index.js
+  - **Description:** Given a roman numeral, convert it to an integer.
+  - **Link:** https://leetcode.com/problems/roman-to-integer
   
 <!-- Continue this pattern for each challenge -->
 
 ## Folder Structure
 
-- **`Challenge-1`**: Contains files related to Challenge 1.
-  - `solution.py`: Python solution file.
+- **`/challengues`**: Contains all folders/files related to the Challenges.
+  - `name-of-the-problem`: Name of the folder.
+  - `index.js`: Coded solution for the problem.
+  - `index.test.js`: Test cases for the current problem.
   - `README.md`: Specific notes or explanations.
-  
-- **`Challenge-2`**: Contains files related to Challenge 2.
-  - `solution.js`: JavaScript solution file.
-  - `notes.md`: Any additional notes or explanations.
 
 ## Getting Started
 

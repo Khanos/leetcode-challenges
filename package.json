@@ -1,0 +1,26 @@
+{
+  "name": "leetcode-challenges",
+  "version": "1.0.0",
+  "description": "This repository contains my personal trials and solutions for various coding challenges from LeetCode. These challenges cover a wide range of topics and difficulty levels in the field of algorithms and data structures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khanos/leetcode-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khanos/leetcode-challenges/issues"
+  },
+  "homepage": "https://github.com/Khanos/leetcode-challenges#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
