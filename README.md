@@ -7,7 +7,7 @@ This repository contains my personal trials and solutions for various coding cha
 - **Challenge 1:** Roman to Integer
   - **Solution:** challengues/roman-to-integer/index.js
   - **Description:** Given a roman numeral, convert it to an integer.
-  - **Link:** https://leetcode.com/problems/roman-to-integer
+  - **Link:** https://leetcode.com/problems/roman-to-integer/submissions/1137669294/
   
 <!-- Continue this pattern for each challenge -->
 
