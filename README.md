@@ -8,6 +8,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/roman-to-integer/index.js
   - **Description:** Given a roman numeral, convert it to an integer.
   - **Link:** https://leetcode.com/problems/roman-to-integer/submissions/1137669294/
+
+- **Challenge 2:** Palindrome Number
+  - **Solution:** challengues/palindrome-number/index.js
+  - **Description:** Given an integer x, return true if x is a palindrome, and false otherwise.
+  - **Link:** https://leetcode.com/problems/palindrome-number/submissions/1138545284/
   
 <!-- Continue this pattern for each challenge -->
 
