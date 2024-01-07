@@ -13,6 +13,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/palindrome-number/index.js
   - **Description:** Given an integer x, return true if x is a palindrome, and false otherwise.
   - **Link:** https://leetcode.com/problems/palindrome-number/submissions/1138545284/
+
+- **Challenge 4:** Longest Common Prefix
+  - **Solution:** challengues/longest-common-prefix/index.js
+  - **Description:** Write a function to find the longest common prefix string amongst an array of strings.
+  - **Link:** https://leetcode.com/problems/longest-common-prefix/submissions/1139771807/
   
 <!-- Continue this pattern for each challenge -->
 
