@@ -24,6 +24,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Description:** Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid
   - **Link:** https://leetcode.com/problems/valid-parentheses/submissions/1142374558/
   
+- **Challenge 6:** Merge Two Sorted Lists
+  - **Solution:** challengues/merge-two-sorted-lists/index.js
+  - **Description:** Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+  - **Link:** https://leetcode.com/problems/merge-two-sorted-lists/submissions/1142395714/
+  
 <!-- Continue this pattern for each challenge -->
 
 ## Folder Structure
