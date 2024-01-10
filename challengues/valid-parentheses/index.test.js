@@ -1,6 +1,10 @@
 const isValid = require('./index');
 
 describe('Valid Parentheses', () => {
+  test('({{{}}}) is valid', () => {
+    expect(isValid('({{{}}})')).toBe(true);
+  });
+
   test('() is valid', () => {
     expect(isValid('()')).toBe(true);
   });
