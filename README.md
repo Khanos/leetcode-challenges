@@ -19,6 +19,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Description:** Write a function to find the longest common prefix string amongst an array of strings.
   - **Link:** https://leetcode.com/problems/longest-common-prefix/submissions/1139771807/
   
+- **Challenge 5:** Valid Parentheses
+  - **Solution:** challengues/valid-parentheses/index.js
+  - **Description:** Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid
+  - **Link:** https://leetcode.com/problems/valid-parentheses/submissions/1142374558/
+  
 <!-- Continue this pattern for each challenge -->
 
 ## Folder Structure
