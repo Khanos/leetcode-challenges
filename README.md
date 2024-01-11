@@ -28,6 +28,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/merge-two-sorted-lists/index.js
   - **Description:** Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
   - **Link:** https://leetcode.com/problems/merge-two-sorted-lists/submissions/1142395714/
+
+- **Challenge 6:** Remove Duplicates from Sorted Array
+  - **Solution:** challengues/remove-duplicates-from-sorted-array/index.js
+  - **Description:** Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+  - **Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1143361112/
   
 <!-- Continue this pattern for each challenge -->
 
