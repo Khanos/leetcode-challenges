@@ -4,7 +4,8 @@
   "description": "This repository contains my personal trials and solutions for various coding challenges from LeetCode. These challenges cover a wide range of topics and difficulty levels in the field of algorithms and data structures.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest .",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",

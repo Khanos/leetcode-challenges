@@ -38,6 +38,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/commonly-used-char/index.js
   - **Description:** Given a string, return the character that is most commonly used in the string.
   - **Link:** Personal.
+
+- **Challenge 8:** Find the Index of the First Occurrence in a String
+  - **Solution:** challengues/find-first-occurrence-in-string/index.js
+  - **Description:** Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+  - **Link:** https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/1153763438/
   
 <!-- Continue this pattern for each challenge -->
 
