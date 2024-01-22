@@ -26,7 +26,7 @@ var mergeTwoLists = function(list1, list2) {
     }
     mergedList = mergedList.next;
   }
-  mergedList.next = list1 || list2;
+  mergedList.next = list1;
   return head.next;
 };
 
