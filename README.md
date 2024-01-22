@@ -33,6 +33,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/remove-duplicates-from-sorted-array/index.js
   - **Description:** Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
   - **Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1143361112/
+
+- **Challenge 7:** Find the most commonly used chart in a string
+  - **Solution:** challengues/commonly-used-char/index.js
+  - **Description:** Given a string, return the character that is most commonly used in the string.
+  - **Link:** Personal.
   
 <!-- Continue this pattern for each challenge -->
 
