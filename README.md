@@ -43,6 +43,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/find-first-occurrence-in-string/index.js
   - **Description:** Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
   - **Link:** https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/1153763438/
+
+- **Challenge 9:** Merge Array of Arrays
+  - **Solution:** challengues/merge-multiple-arrays/index.js
+  - **Description:** Given an array of arrays, where each inner array contains single-character strings, implement a function `mergeArrays` that returns all posible merge combinations in an array of strings.
+  - **Link:** Personal.
   
 <!-- Continue this pattern for each challenge -->
 
