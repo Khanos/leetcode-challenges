@@ -44,7 +44,12 @@ This repository contains my personal trials and solutions for various coding cha
   - **Description:** Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
   - **Link:** https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/1153763438/
 
-- **Challenge 9:** Merge Array of Arrays
+- **Challenge 9:** Plus One
+  - **Solution:** challengues/plus-one/index.js
+  - **Description:** You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+  - **Link:** https://leetcode.com/problems/plus-one/submissions/1153988679/
+ 
+- **Challenge 10:** Merge Array of Arrays
   - **Solution:** challengues/merge-multiple-arrays/index.js
   - **Description:** Given an array of arrays, where each inner array contains single-character strings, implement a function `mergeArrays` that returns all posible merge combinations in an array of strings.
   - **Link:** Personal.
