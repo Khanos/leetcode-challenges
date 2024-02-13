@@ -53,6 +53,11 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/merge-multiple-arrays/index.js
   - **Description:** Given an array of arrays, where each inner array contains single-character strings, implement a function `mergeArrays` that returns all posible merge combinations in an array of strings.
   - **Link:** Personal.
+
+- **Challenge 11:** Good arrays
+  - **Solution:** challengues/good-arrays/index.js
+  - **Description:** In a "good string", every character is different from the character immediately following it. If the original string has any consecutive duplicate characters, they are removed in the "good string"
+  - **Link:** Personal.
   
 <!-- Continue this pattern for each challenge -->
 
