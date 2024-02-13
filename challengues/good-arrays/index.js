@@ -4,6 +4,7 @@
  * @param {string[]} cases
  * @return {string}
  */
+// First attempt
 // var goodArray = function(t, cases) {
 //   const goodArrays = [];
 //   for (let i = 0; i < t; i++) {
@@ -19,6 +20,7 @@
 //   return goodArrays
 // };
 
+// Second attempt
 var goodArray = function(t, cases) {
   const goodArrays = [];
   for (let i = 0; i < t; i++) {
