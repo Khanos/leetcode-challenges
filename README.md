@@ -58,6 +58,8 @@ This repository contains my personal trials and solutions for various coding cha
   - **Solution:** challengues/good-arrays/index.js
   - **Description:** In a "good string", every character is different from the character immediately following it. If the original string has any consecutive duplicate characters, they are removed in the "good string"
   - **Link:** Personal.
+
+...
   
 <!-- Continue this pattern for each challenge -->
 
