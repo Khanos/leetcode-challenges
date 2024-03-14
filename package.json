@@ -4,9 +4,10 @@
   "description": "This repository contains my personal trials and solutions for various coding challenges from LeetCode. These challenges cover a wide range of topics and difficulty levels in the field of algorithms and data structures.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --silent",
+    "test": "npm run test:javascript && npm run test:python",
+    "test:javascript": "jest --coverage --silent",
     "test:watch": "jest --watch",
-    "test:python": "python3 -m unittest discover -s ./challengues -p '*test.py'"
+    "test:python": "python3 -m unittest discover -v -s ./challengues -p '*test.py'"
   },
   "repository": {
     "type": "git",
