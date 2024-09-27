@@ -1,4 +1,4 @@
-const removeDuplicates = require('./index');
+import removeDuplicates from './index.js';
 
 describe('removeDuplicates', () => {
   it('should return 2', () => {

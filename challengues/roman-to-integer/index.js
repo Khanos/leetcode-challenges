@@ -31,4 +31,4 @@ var romanToInt = function(s) {
   }, 0);
 };
 
-module.exports = romanToInt;
+export default romanToInt;

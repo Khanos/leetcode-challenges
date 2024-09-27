@@ -1,4 +1,4 @@
-const isValid = require('./index');
+import isValid from './index.js';
 
 describe('Valid Parentheses', () => {
   test('({{{}}}) is valid', () => {

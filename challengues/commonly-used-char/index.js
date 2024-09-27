@@ -98,7 +98,7 @@ const topThreeCommonlyUsedChars = (str) => {
   };
 }
 
-module.exports = {
+export {
   commonlyUsedChar,
   topThreeCommonlyUsedChars,
 };

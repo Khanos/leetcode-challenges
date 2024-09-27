@@ -32,4 +32,4 @@ const biggestUniqueString = (str) => {
 //   const uniqueStr = [...new Set(uniqueStrArray)];
 //   return uniqueStr.sort((a, b) => b.length - a.length)[0];
 // };
-module.exports = biggestUniqueString;
+export default biggestUniqueString;

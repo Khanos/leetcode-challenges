@@ -1,4 +1,4 @@
-const goodArray = require('./index');
+import goodArray from './index.js';
 
 describe('longestCommonPrefix', () => {
   it('should return an array of good arrays', () => {

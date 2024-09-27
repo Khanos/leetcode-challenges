@@ -64,4 +64,4 @@ var longestCommonPrefix = function(strs) {
   return prefix;
 };
 
-module.exports = longestCommonPrefix;
+export default longestCommonPrefix;

@@ -1,4 +1,4 @@
-const {commonlyUsedChar, topThreeCommonlyUsedChars} = require('./index');
+import {commonlyUsedChar, topThreeCommonlyUsedChars} from './index';
 
 describe('commonlyUsedChar', () => {
   it('should be defined', () => {

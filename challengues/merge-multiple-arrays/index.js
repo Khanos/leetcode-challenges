@@ -26,4 +26,4 @@ function mergeArrays(arrays) {
   return sortedCombinations;
 }
 
-module.exports = mergeArrays;
+export default mergeArrays;

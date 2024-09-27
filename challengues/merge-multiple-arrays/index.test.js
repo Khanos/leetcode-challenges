@@ -1,4 +1,4 @@
-const mergeArrays = require('./index.js');
+import mergeArrays from './index.js';
 
 describe('mergeArrays', () => {
   it('is a function', () => {

@@ -1,4 +1,4 @@
-const longestCommonPrefix = require('./index');
+import longestCommonPrefix from './index.js';
 
 describe('longestCommonPrefix', () => {
   it('should return "fl" when input is ["flower","flow","flight"]', () => {

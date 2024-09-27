@@ -1,4 +1,4 @@
-const isPalindrome = require('./index');
+import isPalindrome from './index.js';
 
 describe('isPalindrome', () => {
   test('isPalindrome function is defined', () => {

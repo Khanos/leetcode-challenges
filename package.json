@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "This repository contains my personal trials and solutions for various coding challenges from LeetCode. These challenges cover a wide range of topics and difficulty levels in the field of algorithms and data structures.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm run test:javascript && npm run test:python",
+    "test": "jest",
     "test:javascript": "jest --coverage --silent",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch --config=jest.config.js",
     "test:python": "python3 -m unittest discover -v -s ./challengues -p '*test.py'"
   },
   "repository": {
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/Khanos/leetcode-challenges#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
   },
   "engines": {

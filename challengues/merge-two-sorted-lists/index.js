@@ -30,4 +30,4 @@ var mergeTwoLists = function(list1, list2) {
   return head.next;
 };
 
-module.exports = mergeTwoLists;
+export default mergeTwoLists;
