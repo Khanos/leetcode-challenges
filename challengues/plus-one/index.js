@@ -33,4 +33,4 @@ const plusOne = function(digits) {
   return result;
 };
 
-module.exports = plusOne;
+export default plusOne;

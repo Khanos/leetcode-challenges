@@ -1,4 +1,4 @@
-const plusOne = require('./index');
+import plusOne from './index.js';
 
 describe('plusOne', () => {
   it('should be a function', () => {

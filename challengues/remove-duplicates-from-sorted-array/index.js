@@ -26,4 +26,4 @@ var removeDuplicates = function(nums) {
 //   return set.size;
 // };
 
-module.exports = removeDuplicates;
+export default removeDuplicates;

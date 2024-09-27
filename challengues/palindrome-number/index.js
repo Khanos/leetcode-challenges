@@ -27,4 +27,4 @@ var isPalindrome = function(x) {
     return reversed === original;
 };
 
-module.exports = isPalindrome;
+export default isPalindrome;

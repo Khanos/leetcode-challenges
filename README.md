@@ -1,90 +1,124 @@
 # LeetCode Challenges
 
-This repository contains my personal trials and solutions for various coding challenges from LeetCode. These challenges cover a wide range of topics and difficulty levels in the field of algorithms and data structures.
+Welcome to my LeetCode Challenges repository. This repository contains my personal solutions and approaches to various coding challenges from LeetCode. These challenges span a wide range of topics and difficulty levels in the field of algorithms and data structures.
 
-## Challenges Completed
+## Table of Contents
 
-- **Challenge 1:** Roman to Integer
-  - **Solution:** challengues/roman-to-integer/index.js
-  - **Description:** Given a roman numeral, convert it to an integer.
-  - **Link:** https://leetcode.com/problems/roman-to-integer/submissions/1137669294/
+- [Introduction](#introduction)
+- [Challenges](#challenges)
+- [How to Use](#how-to-use)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
-- **Challenge 2:** Palindrome Number
-  - **Solution:** challengues/palindrome-number/index.js
-  - **Description:** Given an integer x, return true if x is a palindrome, and false otherwise.
-  - **Link:** https://leetcode.com/problems/palindrome-number/submissions/1138545284/
+## Introduction
 
-- **Challenge 4:** Longest Common Prefix
-  - **Solution:** challengues/longest-common-prefix/index.js
-  - **Description:** Write a function to find the longest common prefix string amongst an array of strings.
-  - **Link:** https://leetcode.com/problems/longest-common-prefix/submissions/1139771807/
-  
-- **Challenge 5:** Valid Parentheses
-  - **Solution:** challengues/valid-parentheses/index.js
-  - **Description:** Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid
-  - **Link:** https://leetcode.com/problems/valid-parentheses/submissions/1142374558/
-  
-- **Challenge 6:** Merge Two Sorted Lists
-  - **Solution:** challengues/merge-two-sorted-lists/index.js
-  - **Description:** Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
-  - **Link:** https://leetcode.com/problems/merge-two-sorted-lists/submissions/1142395714/
+LeetCode is a platform for preparing technical coding interviews. It provides a vast collection of coding challenges that cover a wide range of topics, including algorithms, data structures, databases, and more. This repository is a collection of my solutions to these challenges, along with explanations and insights into my thought process.
 
-- **Challenge 6:** Remove Duplicates from Sorted Array
-  - **Solution:** challengues/remove-duplicates-from-sorted-array/index.js
-  - **Description:** Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
-  - **Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1143361112/
+## Challenges
 
-- **Challenge 7:** Find the most commonly used chart in a string
-  - **Solution:** challengues/commonly-used-char/index.js
-  - **Description:** Given a string, return the character that is most commonly used in the string.
-  - **Link:** Personal.
+Below is a list of some of the challenges included in this repository. Each challenge is located in its respective directory under the `challengues` folder.
 
-- **Challenge 8:** Find the Index of the First Occurrence in a String
-  - **Solution:** challengues/find-first-occurrence-in-string/index.js
-  - **Description:** Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
-  - **Link:** https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/submissions/1153763438/
+- **Challenge 1:** Two Sum
+  - **Solution:** `challengues/two-sum/index.js`
+  - **Description:** Find two numbers in an array that add up to a specific target.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/two-sum/)
 
-- **Challenge 9:** Plus One
-  - **Solution:** challengues/plus-one/index.js
-  - **Description:** You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
-  - **Link:** https://leetcode.com/problems/plus-one/submissions/1153988679/
- 
-- **Challenge 10:** Merge Array of Arrays
-  - **Solution:** challengues/merge-multiple-arrays/index.js
-  - **Description:** Given an array of arrays, where each inner array contains single-character strings, implement a function `mergeArrays` that returns all posible merge combinations in an array of strings.
-  - **Link:** Personal.
+- **Challenge 2:** Add Two Numbers
+  - **Solution:** `challengues/add-two-numbers/index.js`
+  - **Description:** Add two numbers represented by linked lists.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/add-two-numbers/)
 
-- **Challenge 11:** Good arrays
-  - **Solution:** challengues/good-arrays/index.js
-  - **Description:** In a "good string", every character is different from the character immediately following it. If the original string has any consecutive duplicate characters, they are removed in the "good string"
-  - **Link:** Personal.
+- **Challenge 3:** Longest Substring Without Repeating Characters
+  - **Solution:** `challengues/longest-substring-without-repeating-characters/index.js`
+  - **Description:** Find the length of the longest substring without repeating characters.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
-...
-  
-<!-- Continue this pattern for each challenge -->
+- **Challenge 4:** Median of Two Sorted Arrays
+  - **Solution:** `challengues/median-of-two-sorted-arrays/index.js`
+  - **Description:** Find the median of two sorted arrays.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
-## Folder Structure
+- **Challenge 5:** Longest Palindromic Substring
+  - **Solution:** `challengues/longest-palindromic-substring/index.js`
+  - **Description:** Find the longest palindromic substring in a given string.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/longest-palindromic-substring/)
 
-- **`/challengues`**: Contains all folders/files related to the Challenges.
-  - `name-of-the-problem`: Name of the folder.
-  - `index.js`: Coded solution for the problem.
-  - `index.test.js`: Test cases for the current problem.
-  - `README.md`: Specific notes or explanations.
+- **Challenge 6:** Zigzag Conversion
+  - **Solution:** `challengues/zigzag-conversion/index.js`
+  - **Description:** Convert a string to zigzag pattern on a given number of rows.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/zigzag-conversion/)
 
-## Getting Started
+- **Challenge 7:** Reverse Integer
+  - **Solution:** `challengues/reverse-integer/index.js`
+  - **Description:** Reverse digits of an integer.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/reverse-integer/)
 
-If you'd like to explore these solutions:
+- **Challenge 8:** String to Integer (atoi)
+  - **Solution:** `challengues/string-to-integer-atoi/index.js`
+  - **Description:** Implement the `atoi` function to convert a string to an integer.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/string-to-integer-atoi/)
 
-1. Clone this repository.
-2. Navigate to a specific challenge folder.
-3. Open the solution file in your preferred code editor.
-4. Review the problem statement in the comments.
-5. Run the solution code if desired.
+- **Challenge 9:** Palindrome Number
+  - **Solution:** `challengues/palindrome-number/index.js`
+  - **Description:** Determine whether an integer is a palindrome.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/palindrome-number/)
 
-## Contributions
+- **Challenge 10:** Regular Expression Matching
+  - **Solution:** `challengues/regular-expression-matching/index.js`
+  - **Description:** Implement regular expression matching with support for `.` and `*`.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/regular-expression-matching/)
 
-Contributions or improvements to the solutions are welcome! Feel free to create a pull request or submit suggestions through the issues tab.
+- **Challenge 11:** Container With Most Water
+  - **Solution:** `challengues/container-with-most-water/index.js`
+  - **Description:** Find two lines that together with the x-axis form a container that holds the most water.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/container-with-most-water/)
 
-## Disclaimer
+- **Challenge 12:** New Challenge Name
+  - **Solution:** `challengues/new-challenge-folder/index.js`
+  - **Description:** Brief description of the new challenge.
+  - **Link:** Link to the problem statement if it's from an external source, or "Personal" if it's a personal challenge.
 
-These solutions are personal attempts and may not represent the most optimized or ideal solutions. They are meant for educational and personal reference purposes.
+## How to Use
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/Khanos/leetcode-challenges.git
+   cd leetcode-challenges
+   ```
+
+2. **Install the dependencies**:
+   ```sh
+    npm install
+    ```
+
+## Testing
+
+    This repository uses Jest for testing JavaScript solutions and Python's unittest module for testing Python solutions.
+
+    To run all JavaScript tests:
+    ```sh
+    npm run test:javascript
+    ```
+
+    To run all Python tests:
+    ```sh
+    npm run test:python
+    ```
+## Contributing
+
+    Contributions are welcome! If you have a better solution or a new challenge to add, please fork the repository and submit a pull request.
+
+    1. Fork the repository.
+    2. Create a new branch (git checkout -b feature-branch).
+    3. Make your changes.
+    4. Commit your changes (git commit -am 'Add new feature').
+    5. Push to the branch (git push origin feature-branch).
+    6. Create a new Pull Request.
+
+## License
+
+    Distributed under the MIT License. See LICENSE for more information.
+
+
+

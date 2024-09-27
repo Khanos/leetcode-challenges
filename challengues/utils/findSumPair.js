@@ -18,4 +18,6 @@ function findSumPair(arr, targetSum) {
   return [0, 0];
 }
 
-module.exports = findSumPair;
+export {
+  findSumPair
+};

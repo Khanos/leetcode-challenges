@@ -1,4 +1,4 @@
-const mergeTwoLists = require('./index');
+import mergeTwoLists from './index.js';
 
 function ListNode(val, next) {
   this.val = (val===undefined ? 0 : val)

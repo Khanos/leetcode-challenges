@@ -1,4 +1,4 @@
-const romanToInt = require('./index');
+import romanToInt from './index.js';
 
 describe('romanToInt', () => {
 	// it('should fail - This is just for debuggin', () => {

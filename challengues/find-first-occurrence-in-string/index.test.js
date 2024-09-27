@@ -1,4 +1,4 @@
-const strStr = require('./index');
+import strStr from './index.js';
 
 describe('challengues/find-first-occurrence-in-string', () => {
   it('should return 2', () => {

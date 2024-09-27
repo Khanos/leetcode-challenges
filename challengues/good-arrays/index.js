@@ -36,4 +36,4 @@ var goodArray = function(t, cases) {
   return goodArrays
 };
 
-module.exports = goodArray;
+export default goodArray;
