@@ -8,4 +8,4 @@ class Dragon {
   }
 };
 
-module.exports = Dragon;
+export default Dragon;
