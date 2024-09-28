@@ -17,7 +17,8 @@ LeetCode is a platform for preparing technical coding interviews. It provides a 
 
 ## Challenges
 
-Below is a list of some of the challenges included in this repository. Each challenge is located in its respective directory under the `challengues` folder.
+<details>
+  <summary>Below is a list of some of the challenges included in this repository. Each challenge is located in its respective directory under the `challengues` folder.</summary>
 
 - **Challenge 1:** Two Sum
   - **Solution:** `challengues/two-sum/index.js`
@@ -83,6 +84,8 @@ Below is a list of some of the challenges included in this repository. Each chal
   - **Solution:** `challengues/richest-customer-wealth/index.js`
   - **Description:** You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​(th)​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has. A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/richest-customer-wealth)
+
+</details>
 
 ## How to Use
 
