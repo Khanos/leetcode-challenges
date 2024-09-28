@@ -1,6 +1,10 @@
 name: leetcode personal trials
 run-name: leetcode challengues by ${{ github.actor }} 🚀
-on: [push]
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
