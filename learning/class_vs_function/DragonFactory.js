@@ -7,4 +7,4 @@ const DragonFactory = function(element) {
   };
 };
 
-module.exports = DragonFactory;
+export default DragonFactory;

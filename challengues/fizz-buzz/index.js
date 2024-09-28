@@ -4,6 +4,7 @@
  */
 const fizzBuzz1 = function(n) {
   const resultArray = new Array(n);
+  const divBy = (x, n) => x % n === 0
   for (let i = 0; i < n; i++) {
     if(divBy(i, 3) || divBy(i, 5)) {
       if(divBy(i, 3)) {
@@ -45,3 +46,7 @@ const fizzBuzz = function(n) {
 };
 
 export default fizzBuzz;
+export {
+  fizzBuzz1,
+  fizzBuzz2,
+}

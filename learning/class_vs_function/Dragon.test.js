@@ -1,4 +1,4 @@
-const Dragon = require('./Dragon');
+import Dragon from './Dragon';
 
 describe('Dragon class', () => {
   const fluffy = new Dragon('fire');

@@ -17,4 +17,4 @@ class DragonArrow {
 // this.breath = this.breath.bind(this);
 // Is binding the context of the breath function
 // to the object that is being created.
-module.exports = DragonArrow;
+export default DragonArrow;
