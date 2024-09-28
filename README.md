@@ -74,10 +74,15 @@ Below is a list of some of the challenges included in this repository. Each chal
   - **Description:** Find two lines that together with the x-axis form a container that holds the most water.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/container-with-most-water/)
 
-- **Challenge 12:** New Challenge Name
-  - **Solution:** `challengues/new-challenge-folder/index.js`
-  - **Description:** Brief description of the new challenge.
-  - **Link:** Link to the problem statement if it's from an external source, or "Personal" if it's a personal challenge.
+- **Challenge 12:** Running Sum of 1d Array
+  - **Solution:** `challengues/running-sum-of-1d-array/index.js`
+  - **Description:** Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]). Return the running sum of nums.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/running-sum-of-1d-array)
+
+- **Challenge 13:** Richest Customer Wealth
+  - **Solution:** `challengues/richest-customer-wealth/index.js`
+  - **Description:** You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​(th)​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has. A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/richest-customer-wealth)
 
 ## How to Use
 
