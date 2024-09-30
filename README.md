@@ -90,6 +90,11 @@ LeetCode is a platform for preparing technical coding interviews. It provides a 
   - **Description:** Given an integer n, return a string array answer (1-indexed) where: answer[i] == "FizzBuzz" if i is divisible by 3 and 5. answer[i] == "Fizz" if i is divisible by 3. answer[i] == "Buzz" if i is divisible by 5. answer[i] == i (as a string) if none of the above conditions are true.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/fizz-buzz)
 
+- **Challenge 15:** Number of Steps to Reduce a Number to Zero
+  - **Solution:** `challengues/number-of-steps-to-reduce-a-number-to-zero/index.js`
+  - **Description:** Given an integer num, return the number of steps to reduce it to zero. In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
+
 </details>
 
 ## How to Use
