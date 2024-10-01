@@ -1,4 +1,4 @@
-import {findSumPair} from './findSumPair.js';
+import { findSumPair } from './findSumPair.js';
 
 describe('findSumPair', () => {
   it('should return an empty array if no pair is found', () => {
