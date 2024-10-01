@@ -95,6 +95,11 @@ LeetCode is a platform for preparing technical coding interviews. It provides a 
   - **Description:** Given an integer num, return the number of steps to reduce it to zero. In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 
+- **Challenge 16:** Middle of the Linked List
+  - **Solution:** `challengues/middle-of-the-linked-list/index.js`
+  - **Description:** Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/middle-of-the-linked-list)
+
 </details>
 
 ## How to Use
