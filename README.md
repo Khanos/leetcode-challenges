@@ -100,6 +100,11 @@ LeetCode is a platform for preparing technical coding interviews. It provides a 
   - **Description:** Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/middle-of-the-linked-list)
 
+- **Challenge 17:** Maximum Depth of Binary Tree
+  - **Solution:** `challengues/maximum-depth-of-binary-tree/index.js`
+  - **Description:** A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree)
+
 </details>
 
 ## How to Use
