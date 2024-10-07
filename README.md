@@ -105,6 +105,11 @@ LeetCode is a platform for preparing technical coding interviews. It provides a 
   - **Description:** A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 
+- **Challenge 18:** Reformat The String
+  - **Solution:** `challengues/maximum-depth-of-binary-tree/index.js`
+  - **Description:** Find a permutation of the string where no letter is followed by another letter and no digit is followed by another digit. That is, no two adjacent characters have the same type. Return the reformatted string or return an empty string if it is impossible to reformat the string.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/reformat-the-string)
+
 </details>
 
 ## How to Use

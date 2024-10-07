@@ -3,6 +3,7 @@
  * @return {string}
  */
 const reformat = function(s) {
+  if (s.length === 1) return s;
   const numbers = s.match(/\d/g) || [];
   const letters = s.match(/[a-z]/g) || [];
   if (numbers.length === 0 || letters.length === 0) return "";
