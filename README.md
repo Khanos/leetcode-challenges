@@ -106,9 +106,14 @@ LeetCode is a platform for preparing technical coding interviews. It provides a 
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree)
 
 - **Challenge 18:** Reformat The String
-  - **Solution:** `challengues/maximum-depth-of-binary-tree/index.js`
+  - **Solution:** `challengues/reformat-the-string/index.js`
   - **Description:** Find a permutation of the string where no letter is followed by another letter and no digit is followed by another digit. That is, no two adjacent characters have the same type. Return the reformatted string or return an empty string if it is impossible to reformat the string.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/reformat-the-string)
+
+- **Challenge 19:** 2696. Minimum String Length After Removing Substrings
+  - **Solution:** `challengues/minimum-string-length-after-removing-substrings/index.js`
+  - **Description:** You are given a string s consisting only of uppercase English letters. You can remove any occurrence of one of the substrings "AB" or "CD" from s. Return the minimum possible length of the resulting string that you can obtain.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)
 
 </details>
 
