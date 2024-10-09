@@ -16,7 +16,7 @@ jobs:
             exit 1
           fi
 
-  lint:
+  setup:
     needs: check-branch-name
     runs-on: ubuntu-latest
     steps:
@@ -24,8 +24,32 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '18.x'
+      - name: Cache node modules
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - run: npm ci
+
+  lint:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+      - name: Restore node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
       - name: Run ESLint
         run: npx eslint .
 
@@ -37,7 +61,11 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
-      - run: npm ci
+          node-version: '18.x'
+      - name: Restore node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
       - name: Run unit tests
         run: npm test
