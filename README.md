@@ -115,6 +115,11 @@ LeetCode is a platform for preparing technical coding interviews. It provides a 
   - **Description:** You are given a string s consisting only of uppercase English letters. You can remove any occurrence of one of the substrings "AB" or "CD" from s. Return the minimum possible length of the resulting string that you can obtain.
   - **Link:** [LeetCode Problem](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/)
 
+- **Challenge 20:** Remove Element
+  - **Solution:** `challengues/remove-element/index.js`
+  - **Description:** Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
+  - **Link:** [LeetCode Problem](https://leetcode.com/problems/remove-element/)
+
 </details>
 
 ## How to Use
