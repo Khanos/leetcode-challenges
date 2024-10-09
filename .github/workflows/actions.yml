@@ -1,0 +1,43 @@
+name: CI Pipeline
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check branch name
+        run: |
+          branch_name=${{ github.head_ref }}
+          if [[ ! $branch_name =~ ^(new|fix|feature)/ ]]; then
+            echo "Branch name must start with 'new/', 'fix/', or 'feature/'"
+            exit 1
+          fi
+
+  lint:
+    needs: check-branch-name
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14.x'
+      - run: npm ci
+      - name: Run ESLint
+        run: npx eslint .
+
+  unit-test:
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14.x'
+      - run: npm ci
+      - name: Run unit tests
+        run: npm test
