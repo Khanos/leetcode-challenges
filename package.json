@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest",
     "lint": "node_modules/eslint/bin/eslint.js .",
     "lint:fix": "node_modules/eslint/bin/eslint.js --fix .",
+    "test": "jest",
     "test:javascript": "jest --coverage --silent",
     "test:watch": "jest --watch --config=jest.config.js",
     "test:python": "python3 -m unittest discover -v -s ./challengues -p '*test.py'"
