@@ -26,4 +26,30 @@ function addTwoNumbers(l1: ListNodeType | null, l2: ListNodeType | null): ListNo
     return summedList;
 };
 
-export default addTwoNumbers;
+function addTwoNumbersV2(
+    l1: ListNodeType | null,
+    l2: ListNodeType | null,
+  ): ListNodeType | null {
+    const dummyHead = new ListNode(0, null);
+    let tail: ListNodeType = dummyHead;
+    let carry = 0;
+    let p1 = l1;
+    let p2 = l2;
+  
+    while (p1 || p2 || carry) {
+      const value1 = p1 ? p1.val : 0;
+      const value2 = p2 ? p2.val : 0;
+      const sum = value1 + value2 + carry;
+  
+      carry = Math.floor(sum / 10);
+      tail.next = new ListNode(sum % 10, null);
+      tail = tail.next;
+  
+      p1 = p1 ? p1.next : null;
+      p2 = p2 ? p2.next : null;
+    }
+  
+    return dummyHead.next;
+  }
+
+export { addTwoNumbers, addTwoNumbersV2 };
