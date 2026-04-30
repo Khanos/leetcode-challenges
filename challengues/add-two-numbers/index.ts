@@ -1,4 +1,4 @@
-import { LinkedList, type ListNodeType } from '../../utils/LinkedList';
+import { ListNode, type ListNodeType } from '../../utils/LinkedList';
 
 function addTwoNumbers(l1: ListNodeType | null, l2: ListNodeType | null): ListNodeType | null {
     function getNumericValue(node: ListNodeType | null): number {
@@ -17,7 +17,13 @@ function addTwoNumbers(l1: ListNodeType | null, l2: ListNodeType | null): ListNo
     const sum = numericValue1 + numericValue2;
     const sumString = sum.toString();
     const sumArray = sumString.split('').reverse().map(Number);
-    return LinkedList.create(sumArray).head;
+    const summedList = new ListNode(sumArray[0], null);
+    let current: ListNodeType | null = summedList;
+    for(let i = 1; i < sumArray.length; i++) {
+        current.next = new ListNode(sumArray[i], null);
+        current = current.next;
+    }
+    return summedList;
 };
 
 export default addTwoNumbers;
