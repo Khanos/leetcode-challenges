@@ -82,6 +82,7 @@ const config = {
   moduleFileExtensions: [
     "js",
     "mjs",
+    "ts",
   ],
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
@@ -172,7 +173,14 @@ const config = {
   // A map from regular expressions to paths to transformers
   transform: {
     "^.+\\.js$": "babel-jest",
+    "^.+\\.ts$": [
+      "ts-jest",
+      {
+        useESM: true,
+      },
+    ],
   },
+  extensionsToTreatAsEsm: [".ts"],
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   transformIgnorePatterns: [
